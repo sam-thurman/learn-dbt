@@ -42,4 +42,4 @@ models:
   learn_dbt:
     +materialized: table
     example:
-      +materialized: view
+      +materialized: table
