@@ -40,6 +40,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   learn_dbt:
-    +materialized: view
+    +materialized: table
     example:
       +materialized: view
